@@ -168,6 +168,31 @@ main .hero button {
     cursor: pointer;
 }
 
+#news-photo-with-text {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 86%;
+    height: 50vh;
+    padding: 20px;
+    margin: 60px auto;
+    border-radius: 18px;
+    background-image: url("/img/dhiemas-afif-febriyan-DnA-PIhDw2o-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#news-photo-with-text .desc {
+    width: 300px;
+    margin: 40px;
+}
+#news-photo-with-text .desc h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+#news-photo-with-text .desc p {
+    font-size: 14px;
+}
+
 
 /* Media Queries */
 @media (max-width: 768px) {
