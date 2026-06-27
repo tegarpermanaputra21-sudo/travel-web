@@ -58,7 +58,7 @@ main .hero button {
     border: none;
     font-weight: 500;
     border-radius: 14px;
-    padding: 10px 20px;
+    padding: 12px 24px;
     background: #fff;
     cursor: pointer;
 }
@@ -107,53 +107,67 @@ main .hero button {
     margin-top: 10px;
 }
 
-#chose-tour {
+#choose-tour {
     padding: 60px 50px;
 }
-#chose-tour h2{
+#choose-tour h2{
     font-size: 42px;
     font-weight: 600;
 }
-#chose-tour .wrapper {
+#choose-tour .wrapper {
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;
     gap: 20px;
     flex-wrap: wrap;
 }
-#chose-tour .wrapper .chose {
+#choose-tour .wrapper .choose {
     width: 250px;
     height: 380px;
 }
-#chose-tour .wrapper .chose img {
+#choose-tour .wrapper .choose img {
     width: 100%;
     height: 300px;
     border-radius: 16px;
     object-fit: cover;
 }
-#chose-tour .wrapper .chose .desc {
+#choose-tour .wrapper .choose .desc {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
     padding: 0 10px;
 }
-#chose-tour .wrapper .chose .desc i {
+#choose-tour .wrapper .choose .desc i {
     font-size: 30px;
     cursor: pointer;
 }
-#chose-tour .wrapper .chose .desc .left-side-desc h3 {
+#choose-tour .wrapper .chosoe .desc .left-side-desc h3 {
     font-size: 18px;
     margin-bottom: 4px;
     font-weight: 600;
 }
-#chose-tour .wrapper .chose .desc .left-side-desc span {
+#choose-tour .wrapper .chose .desc .left-side-desc span {
     font-size: 14px;
     font-weight: 600;
 }
-#chose-tour .wrapper .chose .desc .left-side-desc p {
+#choose-tour .wrapper .chose .desc .left-side-desc p {
     font-size: 14px;
 }
+#choose-tour .btn-see-all {
+    text-align: center;
+    margin: 40px auto;
+}
+#choose-tour .btn-see-all button {
+    width: 250px;
+    border: 1.5px solid #000;
+    font-weight: 500;
+    border-radius: 14px;
+    padding: 12px 24px;
+    background: #fff;
+    cursor: pointer;
+}
+
 
 /* Media Queries */
 @media (max-width: 768px) {
