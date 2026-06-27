@@ -1,0 +1,130 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+/* Header styles (main nav) */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+}
+nav .left-side-nav h2 {
+    font-size: 28px;
+
+}
+nav .middle-side-nav a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 14px;
+}
+nav .right-side-nav i {
+    font-size: 24px
+}
+
+/* main content */
+main {
+    display: flex;
+    height: 87vh;
+    width: 98%;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: url("/img/iqx-azmi-894I5hk0Xkc-unsplash.jpg");
+    background-size: cover;
+}
+
+main .hero {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto 40px;
+    padding: 20px;
+    color: #fff;
+}
+main .hero h1 {
+    font-size: 60px;
+    font-weight: 600;
+    word-spacing: 1px;
+    line-height: 1.2;
+}
+main .hero p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+main .hero button {
+    width: 150px;
+    border: none;
+    font-weight: 500;
+    border-radius: 14px;
+    padding: 10px 20px;
+    background: #fff;
+    cursor: pointer;
+}
+
+#benefits {
+    padding: 120px 20px;
+    text-align: center;
+}
+#benefits h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+#benefits p {
+    font-size: 14px;
+    color: #666
+}
+
+#benefits .card-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#benefits .card-wrapper .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav .left-side-nav h2{
+        font-size: 24px;
+    }
+    nav .middle-side-nav {
+        display: none;
+    }
+    nav .right-side-nav i{
+        font-size: 24px;
+    }
+
+    .hero {
+        width: 100%;
+        margin: auto;
+    }
+    main .hero h1 {
+        width: 80%;
+        font-size: 40px
+    }
+    main .hero p {
+        width: 80%;
+        font-size: 12px
+    }
+    main .hero button {
+        width: 120px;
+        padding: 10px 16px;
+        border-radius: 12px;
+        font-size: 12px;
+    }
+}
