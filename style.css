@@ -64,7 +64,7 @@ main .hero button {
 }
 
 #benefits {
-    padding: 120px 20px;
+    padding: 120px 20px 60px 20px;
     text-align: center;
 }
 #benefits h2 {
@@ -75,15 +75,13 @@ main .hero button {
     font-size: 14px;
     color: #666
 }
-
 #benefits .card-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 20px;
     margin-top: 40px;
     flex-wrap: wrap;
-    gap: 20px;
 }
-
 #benefits .card-wrapper .card {
     display: flex;
     flex-direction: column;
@@ -109,17 +107,64 @@ main .hero button {
     margin-top: 10px;
 }
 
+#chose-tour {
+    padding: 60px 50px;
+}
+#chose-tour h2{
+    font-size: 42px;
+    font-weight: 600;
+}
+#chose-tour .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#chose-tour .wrapper .chose {
+    width: 250px;
+    height: 380px;
+}
+#chose-tour .wrapper .chose img {
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+#chose-tour .wrapper .chose .desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+#chose-tour .wrapper .chose .desc i {
+    font-size: 30px;
+    cursor: pointer;
+}
+#chose-tour .wrapper .chose .desc .left-side-desc h3 {
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+#chose-tour .wrapper .chose .desc .left-side-desc span {
+    font-size: 14px;
+    font-weight: 600;
+}
+#chose-tour .wrapper .chose .desc .left-side-desc p {
+    font-size: 14px;
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
     nav .left-side-nav h2{
-        font-size: 24px;
+        font-size: 22px;
     }
     nav .middle-side-nav {
         display: none;
     }
     nav .right-side-nav i{
-        font-size: 24px;
+        font-size: 22px;
     }
 
     main .hero {
@@ -138,6 +183,6 @@ main .hero button {
         width: 120px;
         padding: 10px 16px;
         border-radius: 12px;
-        font-size: 14px;
+        font-size: 13px;
     }
 }
