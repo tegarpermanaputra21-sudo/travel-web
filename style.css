@@ -40,8 +40,7 @@ main .hero {
     width: 500px;
     display: flex;
     flex-direction: column;
-    margin: auto 40px;
-    padding: 20px;
+    margin: auto 80px;
     color: #fff;
 }
 main .hero h1 {
@@ -91,9 +90,23 @@ main .hero button {
     justify-content: center;
     width: 250px;
     height: 200px;
-    border-radius: 16px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     padding: 12px;
+}
+#benefits .card-wrapper .card i {
+    font-size: 30px;
+    color: #666;
+}
+#benefits .card-wrapper .card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+#benefits .card-wrapper .card p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
 }
 
 
@@ -109,22 +122,22 @@ main .hero button {
         font-size: 24px;
     }
 
-    .hero {
+    main .hero {
         width: 100%;
-        margin: auto;
+        margin: auto 30px;
     }
     main .hero h1 {
         width: 80%;
-        font-size: 40px
+        font-size: 50px;
     }
     main .hero p {
         width: 80%;
-        font-size: 12px
+        font-size: 14px
     }
     main .hero button {
         width: 120px;
         padding: 10px 16px;
         border-radius: 12px;
-        font-size: 12px;
+        font-size: 14px;
     }
 }
