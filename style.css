@@ -17,6 +17,7 @@ nav .left-side-nav h2 {
 
 }
 nav .middle-side-nav a {
+    font-size: 15px;
     text-decoration: none;
     color: #000;
     margin: 0 14px;
@@ -124,6 +125,8 @@ main .hero button {
 #choose-tour .wrapper .choose {
     width: 250px;
     height: 380px;
+    border-radius: 16px;
+    border: 1px solid #b3b2b2;
 }
 #choose-tour .wrapper .choose img {
     width: 100%;
@@ -192,6 +195,93 @@ main .hero button {
 #news-photo-with-text .desc p {
     font-size: 14px;
 }
+
+#blog-about-traveling {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 60px 0;
+    margin: 60px auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#blog-about-traveling .left-side-blog h2 {
+    font-size: 44px;
+    font-weight: 600;
+    width: 400px;
+}
+#blog-about-traveling .right-side-blog p {
+    font-size: 14px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+#blog-about-traveling .right-side-blog button {
+    border: 1.5px solid #000;
+    font-weight: 500;
+    border-radius: 14px;
+    padding: 12px 24px;
+    background: #fff;
+    cursor: pointer;
+}
+
+#choose-tour-two {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 0;
+    margin: 60px auto;
+    flex-wrap: wrap;
+}
+#choose-tour-two .left-side-choose .choose {
+    border: 1px solid #b3b2b2;
+    border-radius: 16px;
+}
+#choose-tour-two .left-side-choose .choose img {
+    width: 600px;
+    height: 535px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+#choose-tour-two .right-side-choose .choose {
+    margin-bottom: 20px;
+    border: 1px solid #b3b2b2;
+    border-radius: 16px;
+}
+#choose-tour-two .right-side-choose .choose img {
+    width: 500px;
+    height: 206px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+#choose-tour-two .choose .desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 15px;
+    padding: 0 20px;
+}
+#choose-tour-two .choose .desc .desc-theme {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#choose-tour-two .choose .desc .desc-theme p {
+    font-size: 12px;
+    padding: 4px 12px;
+    color: #b3b2b2;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+#choose-tour-two .choose .desc i {
+    font-size: 30px;
+    cursor: pointer;
+}
+#choose-tour-two .choose .desc .left-side-desc h3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
 
 
 /* Media Queries */
