@@ -311,6 +311,55 @@ main .hero button {
     cursor: pointer;
 }
 
+footer {
+    background-color: #f3f3f3;
+    display: flex;
+    width: 80%;
+    margin: 120px auto 20px;
+    padding: 60px 60px 40px 60px;
+    border-radius: 18px;
+    flex-direction: column;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+footer .upper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer .upper .left-side-foot {
+    width: 200px;
+}
+footer .upper .left-side-foot h3 {
+    font-size: 24px;
+}
+footer .upper .left-side-foot p {
+    color: #b3b2b2;
+    font-size: 14px;
+}
+footer .upper .right-side-foot {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+footer .upper .right-side-foot .link {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+footer .upper .right-side-foot .link a {
+    color: #b3b2b2;
+    text-decoration: none;
+    font-size: 13px;
+}
+footer .lower {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
 /* Media Queries */
 @media (max-width: 768px) {
     nav .left-side-nav h2{
